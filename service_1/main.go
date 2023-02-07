@@ -24,6 +24,7 @@ const (
   
 
 func main() {
+	log.Println("Just main")
 	registerToConsul()
 	config := api.DefaultConfig()
 	config.Address = "consul:8500"
